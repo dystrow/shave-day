@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'roc': ['roc-grotesk', 'sans-serif'],
+        'roc-condensed': ['roc-grotesk-condensed', 'sans-serif'],
+        'roc-compressed': ['roc-grotesk-compressed', 'sans-serif'],
+        'new-spirit': ['new-spirit', 'serif'],
+
+      }
     },
   },
   plugins: [],
